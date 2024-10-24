@@ -15,9 +15,9 @@ document.getElementById('gerar-senha').addEventListener('click', () => {
 
 // Funções para o Quiz
 const perguntas = [
-    { pergunta: "Qual é o filme de terror mais icônico?", respostas: ["O Exorcista", "A Noite dos Mortos-Vivos", "Psycho"], respostaCorreta: 0 },
-    { pergunta: "Quem dirigiu 'O Iluminado'?", respostas: ["Stanley Kubrick", "Steven Spielberg", "Alfred Hitchcock"], respostaCorreta: 0 },
-    { pergunta: "Qual filme apresenta o personagem Freddy Krueger?", respostas: ["A Hora do Pesadelo", "Halloween", "Sexta-Feira 13"], respostaCorreta: 0 },
+    { pergunta: "Quem matou a hidra nas lendas gregas?", respostas: ["Hércules", "Platão", "Zeus"], respostaCorreta: 0 },
+    { pergunta: "De acordo com as lendas japonesas, como surgiu o primeiro dragão?", respostas: ["da carpa que teve a determinação em subir a cachoeira", "do homem iluminado", "do Bravo samurai que derrotou 70 homens"], respostaCorreta: 0 },
+    { pergunta: "buda", respostas: ["A Hora do Pesadelo", "Halloween", "Sexta-Feira 13"], respostaCorreta: 0 },
 ];
 
 document.getElementById('iniciar-quiz').addEventListener('click', () => {
